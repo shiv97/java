@@ -1,10 +1,10 @@
 //method overriding
 class pasta
 {
-public void shape()
-{
-System.out.println("it is Penne pasta");
-}
+    public void shape()
+    {
+       System.out.println("it is Penne pasta");
+    }
     public static void main(String args[])
     {
         pasta a = new pasta();   // pasta object
@@ -18,19 +18,19 @@ System.out.println("it is Penne pasta");
 }
 class Pizza_hut extends pasta
 {
- public void shape()
- {
- System.out.println("it is Penne pizza pasta");
- }
-public void price()
-{
-int x=200;
-System.out.println("the cost is :" +x);
-}
-public void name()
-{
- System.out.println("Penne Arabita");
-}
+     public void shape()
+     {
+        System.out.println("it is Penne pizza pasta");
+     }
+     public void price()
+     {
+         int x=200;
+         System.out.println("the cost is :" +x);
+      }
+     public void name()
+     {
+         System.out.println("Penne Arabita");
+     }
 }
 
 
