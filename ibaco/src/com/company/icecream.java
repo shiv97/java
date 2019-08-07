@@ -56,14 +56,14 @@ class Myice
 //interface creating and using
 interface ibaco
 {
-void eat();
+        void eat();
 }
 class pab implements ibaco
 {
-public void eat()
-{
-System.out.println("ibaco has ice creams");
-}
+    public void eat()
+       {
+         System.out.println("ibaco has ice creams");
+       }
 }
 //abstract class creation
 abstract class Amul

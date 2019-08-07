@@ -1,21 +1,21 @@
 public class OverL
 {
-public int Arith(int x, int y)
-{
-return (x+y);
-}
-public int Arith(int x, int y, int z)
-{
- return (x-y+z);
-}
-public double Arith(double x,double y)
-{
-return (x+y);
-}
-public double Arith(int x, double y)
-{
-return (x+y);
-}
+    public int Arith(int x, int y)
+    {
+       return (x+y);
+    }
+    public int Arith(int x, int y, int z)
+    {
+       return (x-y+z);
+    }
+    public double Arith(double x,double y)
+    {
+       return (x+y);
+    }
+    public double Arith(int x, double y)
+    {
+       return (x+y);
+    }
     public static void main(String args[])
     {
         OverL s = new OverL();
